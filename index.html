@@ -43,10 +43,31 @@ p{
         color: rgb(238, 255, 184);
       }
     }
+    #Welcome{
+        animation: animateText 3s linear infinite;
+     }
+    @keyframes animateText {
+      0% {
+        color: rgb(238, 255, 184);       
+      }
+      25% {
+        color: rgb(255, 255, 255);
+      }
+      50% {
+        color: blue;
+      }
+      75% {
+        color: yellow;
+      }
+      100% {
+        color: rgb(255, 79, 214);
+      }
+    }
   </style>
 </head>
 <body><br>
   <h1>Happy New Year!</h1>
+  <p id="Welcome">Welcome 2023</p>
   <p style="font-size: xx-large;">(Keep Learning & Keep Growing)</p>
 </body>
 </html>
